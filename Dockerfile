@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER sthysel <sthysel@gmail.com>
-ENV REFRESHED_AT 2015-06-10
+ENV REFRESHED_AT 2016-09-10
 
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
